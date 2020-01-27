@@ -1,0 +1,1388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#father{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background-color: #F5F5F5;
+}
+li{
+    list-style-type: none;
+}
+/* 头部 */
+#father .header{
+    width: auto;
+    height: 70px;
+    background-color:#242424;
+}
+#father .first{
+    height: 70px;
+    width: 1220px;
+    margin: 0px auto;
+    
+}
+#father .first .left{
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(../images/logo.jpg);
+    background-size: 176px 70px;
+    width: 176px;
+    height: 70px;
+}
+#father .first .center{
+    float: left;
+    clear: right;
+    width: 634px;
+    height: 70px;
+}
+
+#father .first .center .wuxu li{
+    float: left;
+    height: 70px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 70px;
+}
+#father .first .center .wuxu li a{  
+    color: #ccc;
+    text-decoration: none;
+}
+#father .first .center .wuxu li:hover{
+    background-color: black;
+    
+}
+#father .first .center .wuxu li:hover a{
+    color: white;
+}
+
+#father .first .right{
+    float: right;
+    clear: right;
+    width: 410px;
+    height: 70px;
+}
+#father .first .right .input{
+    width: 161px;
+    height: 70px;
+    float: left;
+}
+#father .first .right .input .put{
+    width: 155px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    margin: 20px 0px;
+    text-indent: 30px;
+    /* 解决蓝色边框 */
+    outline: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../images/biao.png);
+    border: 0px;
+    background-size:28px 28px;
+}
+#father .first .right .creation{
+    float: left;
+    width: 122px;
+    height: 32px;
+    margin: 17.5px 0px;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid #4F4F4F;
+    text-align: center;
+    position: relative;
+    border-radius: 32px;
+    background-color: black;
+}
+#father .first .right .creation a{
+   color: #ccc;
+   text-decoration: none;
+}
+#father .first .right .creation:hover {
+    border: 1px solid white;
+}
+#father .first .right .creation:hover a{
+    color: red;
+}
+/* 显示 */
+#div{
+    width: 181px;
+    height: 390px;
+     border:0px solid;
+    margin: 100px auto;
+    position: relative;
+    top: -111px;
+    left: 173px;
+}
+#div .box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 55px;
+   
+}
+#div .box img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#div .box {
+    transition: all 0.1s ease;
+}
+#div .box img:hover{
+    animation:spread 0.5s forwards;
+}
+@keyframes spread{
+    0%{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+#div   .box  .fix{
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.50);
+      display:none;
+      position: absolute;
+      margin: 0px -61px;
+      width: 180px;
+      height: 300px;
+      border-radius: 10px;
+      opacity: 0.9;
+      background-color: #242424;
+}
+#div   .box  .fix ol{
+    height: 20px;
+    position: relative;
+}
+#div   .box  .fix ol li{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+   padding: 11px 1px;
+    width:178px;
+    text-align: center;
+}
+#div   .box  .fix .b-r{
+    border-radius: 10px 10px 0px 0px;
+}
+#div   .box  .fix .b-b{
+    border-radius: 0px 0px 10px 10px;
+}
+#div   .box  .fix  ol li:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #000000;
+}
+#div   .box  .fix  ol li a{
+    text-decoration: none;
+    color: #CCCCCC;
+    position: relative;
+}
+#div   .box  .fix  ol li:hover a{
+    color: #FFFFFF;
+}
+#div  .box:hover .fix{
+    display:block;
+   
+}
+
+#father .section{
+    width: 100%;
+    height:35px;
+    background-color: #C20C0C;
+}
+#father .section .dao{
+    width: 1220px;
+    height: 35px;
+    margin:0px auto;
+    background-color:#C20C0C;
+}
+#father .section .dao .nav{
+    float: left;
+    padding-left: 180px;
+}
+#father .section .dao .nav li{
+    float: left;
+    height: 35px;
+    border-radius: 21px;
+    position: relative;
+    padding: 0px 30px;
+    line-height: 35px;
+}
+#father .section .dao .nav li:hover{
+    background-color: #9B0909;
+    transition: 0.5s;
+}
+#father .section .dao .nav li a{
+    text-decoration: none;
+    color: black;
+}
+#father .section .dao .nav li:hover a{
+    color: chartreuse;
+    transition: 0.5s;
+}
+/* 导航 */
+
+ .dayu{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    top: 80px;
+    left: 43px;
+}
+.dayu p{
+    font-size:60px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 70px;
+    color: #FFFFFF;
+    
+}
+.dayu p a{
+      text-decoration: none;
+     color: white;
+}
+.dayu p:hover{
+    background-color: none;
+    color: white;
+}
+.dayu p:hover a{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.xiaoyu{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+   left: 1395px;
+}
+.xiaoyu p{
+    font-size:60px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.xiaoyu p a{
+    text-decoration: none;
+    color: white;
+}
+.xiaoyu p:hover{
+    background-color: none;
+    color: white;
+}
+.xiaoyu p:hover a{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+#father .max{
+    width: 100%;
+    height:285px;
+    background-color: #E2E2E2;
+    /* background-image: url(../images/27.jpg);
+    background-repeat: no-repeat; */
+}
+#father .max .fox{
+    height: 285px;
+    width: 1220px;
+    margin: -120px auto;
+}
+#father .max .min{
+    float: left;
+    height: 285px;
+    width: 966px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+#father .max .min iframe{
+    width: 966px;
+    border: none;
+    height: 285px;
+    opacity: 0.9;
+}
+#father .max .bost{
+    clear: right;
+    float: right;
+    width: 254px;
+    height: 285px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 254px 285px;
+    background-image: url(../images/xiazai.png);
+    background-color: white;
+}
+#father .content{
+    width: 1220px;
+    height: 1400px;
+    margin: 0px auto;
+}
+#father .content .has{
+    float: left;
+    width: 964px;
+    height: 1399px;
+    border: 1px solid #D3D3D3;
+    background-color: #FFFFFF;
+}
+/* 一部分 */
+#father .content .has .live{
+    width:926px;
+    height:500px;
+    position: relative;
+    margin: 20px ;
+    background-color: white;
+}
+#father .content .has .live .m-nav{
+    width: 926px;
+    height: 40px;
+    border-bottom: 3px solid #C10D0C;
+    position: relative;
+    background-color: white;
+}
+#father .content .has .live .m-nav .n-nav{
+    float: left;
+    width: 500px;
+    height:40px;
+    position: relative;
+    background-color: white;
+}
+#father .content .has .live .m-nav .div{
+    float: left;
+    width: 346px;
+    height: 40px;
+    background-color: white;
+}
+#father .content .has .live .m-nav .l-right{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    background-color:white;
+}
+
+#father .content .has .live .m-nav .l-right a{
+    color: #666666;
+    text-decoration: none;
+}
+#father .content .has .live .m-nav .l-right a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#father .content .has .live .m-nav .n-nav .span{
+             float: left;
+             border: 2px solid red;
+             border-radius: 15px  ;
+             width: 10px;
+             height: 10px;
+             position: relative;
+             top: 10px;
+             left: 10px;
+             border-width: 5px;
+}
+#father .content .has .live .m-nav .n-nav .song{
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 2px;
+}
+#father .content .has .live .m-nav .n-nav .song p{
+    font-size: 25px;
+    float: left;
+
+}
+#father .content .has .live .m-nav .n-nav .list{
+    float: left;
+    clear:right;
+    position: relative;
+    left: 35px;
+    width: 345px;
+    height: 40px;
+    background-color: white;
+}
+
+#father .content .has .live .m-nav .n-nav .list ul{
+    text-align: center;
+    line-height: 40px;
+    width: 999px;
+}
+#father .content .has .live .m-nav .n-nav .list li{
+    float: left;
+    font-size: 13px;
+    padding: 0px 13px;
+}
+#father .content .has .live .m-nav .n-nav .list li a{
+    color: #666666;
+    text-decoration: none;
+}
+#father .content .has .live .m-nav .n-nav .list li a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#father .content .has .live .m-nav .n-nav .list .line{
+    float: left;
+    margin: 0px 5px;
+    color: #D2D2D2;
+}
+#father .m-nav .some{
+    position: relative;
+    top: 43px;
+    width: 926px;
+    height: 457px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+#father .m-nav .some .w-list{
+    width:1198px;
+    height:800px;
+    position: relative;
+    top:0;
+    left: 0;
+    overflow: hidden;
+}
+#father .m-nav .some .w-list li{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-right: 43px;
+    margin-bottom: 24px;
+    background-color:#FFFFFF;
+}
+#father .m-nav .some .w-list li .l-img{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    margin: auto;
+}
+#father .m-nav .some .w-list li .l-img img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+
+.l-img{
+    transition: all 0.1s ease;
+}
+.l-img img:hover{
+    animation: spread 0.5s forwards;
+}
+@keyframes spread {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0.5;
+        transform: scale(1.05);
+    }
+}
+
+
+
+#father .m-nav .some .w-list li .l-p{
+    width: 140px;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    line-height: 19px;
+    background-color: white;
+}
+#father .m-nav .some .w-list li .l-p .p-p{
+    margin:7px 0px 0px 0px;
+    font-size: 14px;
+}
+#father .m-nav .some .w-list li .l-p .p-p a{
+    text-decoration: none;
+    color: #000000;
+}
+#father .m-nav .some .w-list li .l-p .p-p a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+/* 二部分 */
+#father .content .has .life{
+    width: 926px;
+    height: 330px;
+    position: relative;
+    margin: 20px;
+    background-color: springgreen;
+}
+#father .content .has .life .m-life{
+    width: 926px;
+    height: 40px;
+    border-bottom: 3px solid #C10D0C;
+    position: relative;
+    background-color: aqua;
+}
+#father .content .has .life .m-life .n-life{
+    float: left;
+    width: 846px;
+    height:40px;
+    position: relative;
+    background-color: white;
+}
+#father .content .has .life .m-life .n-life .yuan{
+             float: left;
+             border: 2px solid red;
+             border-radius: 15px  ;
+             width: 10px;
+             height: 10px;
+             position: relative;
+             top: 10px;
+             left: 10px;
+             border-width: 5px;
+}
+#father .content .has .life .m-life .n-life .new{
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 2px;
+}
+#father .content .has .life .m-life .n-life .new p{
+    font-size: 25px;
+    float: left;
+}
+#father .content .has .life .m-life .more{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    background-color:white;
+}
+#father .content .has .life .m-life .more a{
+    color: #666666;
+    text-decoration: none;
+}
+#father .content .has .life .m-life .more a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#father .content .has .life .l-some{
+    position: relative;
+    top: 0px;
+    width: 926px;
+    height: 287px;
+    background-color: white;
+}
+#father .content .has .life .l-some  .b-some{
+    border: 1px solid #D3D3D3;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 924px;
+    height: 247px;
+    background-color: #F5F5F5;
+}
+#father .content .has .life .l-some  .b-some .b-ul{
+    width: 926px;
+    height:auto;
+    position: relative;
+}
+#father .content .has .life .l-some  .b-some .b-ul li{
+    cursor: pointer;
+    float: left;
+    clear: right;
+    position: relative;
+    margin: 20px 10px;
+    width: 165.2px;
+    height: 207px;
+    background-color:#F5F5F5;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-li{
+    height: 141px;
+    width: 140.5px;
+    position: relative;
+    margin: auto;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-li{
+    transition: all 0.1s ease;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-li img:hover{
+    animation: spread 0.5s forwards;
+}
+@keyframes spread {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0.7;
+        transform: scale(1.05);
+    }
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-li img{
+    display: block;
+    height: 141px;
+    width: 140.5px;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p{
+    width: 140.5px;
+    height: 66px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    line-height: 30px;
+    background-color: #F5F5F5;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .max-p{
+    font-size: 14px;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .max-p a{
+    color:#000000;
+    text-decoration: none;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .max-p a:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .min-p{
+    font-size: 13px;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .min-p a{
+    color:#666666;
+    text-decoration: none;
+}
+#father .content .has .life .l-some  .b-some .b-ul li .b-p .min-p a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+/* 三部分 */
+#father .content .has .like{
+    width: 926px;
+    height: 490px;
+    position: relative;
+    margin: 20px;
+    background-color: ;
+}
+#father .content .has .like .m-like{
+    width: 926px;
+    height: 40px;
+    border-bottom: 3px solid #C10D0C;
+    position: relative;
+    background-color: ;
+}
+#father .content .has .like .m-like .n-like{
+    float: left;
+    width: 846px;
+    height:40px;
+    position: relative;
+    background-color: white;
+}
+#father .content .has .like .m-like .n-like .c-yuan{
+    float: left;
+    border: 2px solid red;
+    border-radius: 15px  ;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-width: 5px;
+}
+#father .content .has .like .m-like .n-like .c-new{
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 2px;
+}
+#father .content .has .like .m-like .n-like .c-new p{
+    font-size: 25px;
+    float: left;
+}
+#father .content .has .like .m-like  .m-more{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    background-color:white;
+}
+#father .content .has .like .m-like  .m-more a{
+    color: #666666;
+    text-decoration: none;
+}
+#father .content .has .like .m-like  .m-more a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#father .content .has .like .m-like .m-some{
+    position: relative;
+    top: 23px;
+    width: 926px;
+    height: 430px;
+    overflow: hidden;
+    background-color: ;
+}
+#father .content .has .like .m-like .m-some .one-border{
+    float: left;
+    border: 1px solid #C7C7C7;
+    width: 306px;
+    height: 428px;
+    position: relative;
+    top:0;
+}
+#father .content .has .like .m-like .m-some .one-border .min-border{
+    width: 306px;
+    height: 108px;
+    position: relative;
+    top:0px;
+    left:0px;
+    background-color: #F4F4F4;
+}
+
+
+#father .content .has .like .m-like .m-some .one-border .min-border .m-img{
+    cursor: pointer;
+    box-shadow: 0 8px 7px 0px rgba(134,180,234);
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+}
+#father .content .has .like .m-like .m-some .one-border .min-border .m-p{
+    position: relative;
+    top: -62px;
+    left: 116px;
+}
+#father .content .has .like .m-like .m-some .one-border .min-border .m-p a{
+    text-decoration: none;
+    color: #551A8B;
+}
+#father .content .has .like .m-like .m-some .one-border .min-border .m-p a:hover{
+    text-decoration: underline;
+    color: #551A8B;
+}
+#father .content .has .like .m-like .m-some .one-border .min-border .n-img{
+    cursor: pointer;
+    width:77px;
+    height:38px;
+    position: relative;
+    top: -59px;
+    left: 115px;
+}
+#father .content .has .like .m-like .m-some .one-border ol{
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#father .content .has .like .m-like .m-some .one-border ol li{
+   width: 100%;
+   height: 32px;
+   position: relative;
+   top: 0;
+   line-height: 32px;
+   cursor: pointer;
+   text-indent: 12px;
+   background-color: #E8E8E8;
+}
+#father .content .has .like .m-like .m-some .one-border .o-list{
+    background-color: #F4F4F4;
+}
+#father .content .has .like .m-like .m-some .one-border ol li span{
+    color: #c10d0c;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}#father .content .has .like .m-like .m-some .one-border ol li p{
+    color: #666666;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}
+#father .content .has .like .m-like .m-some .one-border ol li a{
+    color: #000000;
+    text-decoration: none;
+}
+#father .content .has .like .m-like .m-some .one-border ol li:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+#father .content .has .like .m-like .m-some .one-border ol li img{
+    display: none;
+    position: absolute;
+    top:0px;
+    right: 20px;
+    width: 90px;
+    height: 32px;
+}
+
+#father .content .has .like .m-like .m-some .one-border ol li:hover img{
+    display: block;
+}
+#father .content .has .like .m-like .m-some .two-border{
+    float: left;
+    border: 1px solid #C7C7C7;
+    width: 308px;
+    height: 428px;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border{
+    width: 306px;
+    height: 108px;
+    position: relative;
+    top:0px;
+    left:0px;
+    background-color: #F4F4F4;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border .max-img{
+    box-shadow: 0 8px 7px 0px rgba(118,216,219);
+    cursor: pointer;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border .max-p{
+    position: relative;
+    top: -62px;
+    left: 116px;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border .max-p a{
+    text-decoration: none;
+    color: #48B5BB;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border .max-p a:hover{
+    text-decoration: underline;
+    color: #48B5BB;
+}
+#father .content .has .like .m-like .m-some .two-border .max-border .max-image{
+    cursor: pointer;
+    width:77px;
+    height:38px;
+    position: relative;
+    top: -59px;
+    left: 115px;
+}
+#father .content .has .like .m-like .m-some .two-border ol{
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#father .content .has .like .m-like .m-some .two-border ol li{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 0;
+    line-height: 32px;
+    cursor: pointer;
+    text-indent: 12px;
+    background-color: #E8E8E8;
+}
+#father .content .has .like .m-like .m-some .two-border .m-list{
+    background-color: #F4F4F4;
+}
+#father .content .has .like .m-like .m-some .two-border ol li span{
+    color: #c10d0c;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}
+#father .content .has .like .m-like .m-some .two-border ol li p{
+    color: #666666;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}
+#father .content .has .like .m-like .m-some .two-border ol li a{
+    color: #000000;
+    text-decoration: none;
+}
+#father .content .has .like .m-like .m-some .two-border ol li:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+#father .content .has .like .m-like .m-some .two-border ol li img{
+    display: none;
+    position: absolute;
+    top:0px;
+    right: 20px;
+    width: 90px;
+    height: 32px;
+}
+#father .content .has .like .m-like .m-some .two-border ol li:hover img{
+    display: block;
+}
+
+#father .content .has .like .m-like .m-some .three-border{
+    float:right;
+    border: 1px solid  #C7C7C7;
+    width: 306px;
+    height: 428px;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border{
+    width: 306px;
+    height: 108px;
+    position: relative;
+    top:0px;
+    left:0px;
+    background-color: #F4F4F4;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border .left-img{
+    box-shadow: 0 8px 7px 0px rgba(211,121,144);
+    cursor: pointer;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border .left-p{
+    position: relative;
+    top: -62px;
+    left: 116px;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border .left-p a{
+    text-decoration: none;
+    color: #C54B6C;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border .left-p a:hover{
+    text-decoration: underline;
+    color: #C54B6C;
+}
+#father .content .has .like .m-like .m-some .three-border .left-border .left-image{
+    cursor: pointer;
+    width:77px;
+    height:38px;
+    position: relative;
+    top: -59px;
+    left: 115px;
+}
+#father .content .has .like .m-like .m-some .three-border ol{
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#father .content .has .like .m-like .m-some .three-border ol li{
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: 0;
+    line-height: 32px;
+    cursor: pointer;
+    text-indent: 12px;
+    background-color: #E8E8E8;
+}
+#father .content .has .like .m-like .m-some .three-border .l-list{
+    background-color: #F4F4F4;
+}
+#father .content .has .like .m-like .m-some .three-border  ol li span{
+    color: #c10d0c;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}
+#father .content .has .like .m-like .m-some .three-border  ol li p{
+    color: #666666;
+    float: left;
+    font-size: 18px;
+    text-indent: 12px;
+}
+#father .content .has .like .m-like .m-some  .three-border  ol li a{
+    color: #000000;
+    text-decoration: none;
+}
+#father .content .has .like .m-like .m-some .three-border ol li:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+#father .content .has .like .m-like .m-some .three-border ol li img{
+    display: none;
+    position: absolute;
+    top:0px;
+    right: 20px;
+    width: 90px;
+    height: 32px;
+}
+#father .content .has .like .m-like .m-some .three-border ol li:hover img{
+    display: block;
+}
+
+/* 右边 */
+#father .content .have{
+    float:right;
+    border: 1px solid #D3D3D3;
+    width:252px;
+    height: 1400px;
+    background-color: ;
+}
+#father .content .have .r-users{
+    width: 252px;
+    height: 126px;
+    border-bottom: 1px solid gray;
+    background-color: #E2E2E2;
+}
+#father .content .have .r-users .r-p{
+    width: 212px;
+    height: 45px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    line-height:26px;
+    background-color: #E2E2E2;
+}
+#father .content .have .r-users .r-p p{
+    font-size: 14px;
+    color: #666666;
+   
+}
+#father .content .have .r-users .r-div{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #DF161E;
+    position: relative;
+    cursor: pointer;
+    top: 36px;
+    left:77px;
+}
+#father .content .have .r-users .r-div p{
+    position: relative;
+    line-height: 35px;
+    text-align: center;
+    
+}
+#father .content .have .r-users .r-div p a{
+    color: white;
+    text-decoration: none;
+}
+#father .content .have .r-users .r-div p a:hover{
+    color: white;
+    text-decoration: none;
+}
+#father .content .have .r-users .r-div:hover {
+    background-color: #EF2C33;
+}
+#father .content .have .r-have{
+    height: 480px;
+    width: 252px;
+    background-color: white;
+}
+#father .content .have .r-have .r-music{
+    width: 212px;
+    height: 440px;
+    position: relative;
+    top: 20px;
+    margin: 0px 20px 20px 20px;
+    background-color: white;
+}
+#father .content .have .r-have .r-music .n-music{
+    height: 27px;
+    width: 212px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#father .content .have .r-have .r-music .n-box{
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bolder;
+}
+#father .content .have .r-have .r-music .r-box{
+    float: right;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+#father .content .have .r-have .r-music .r-box a{
+    color: #666666;
+    text-decoration: none;
+}
+#father .content .have .r-have .r-music .r-box a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#father .content .have .r-have .r-music .c-list{
+    width: 212px;
+    height: 412px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+#father .content .have .r-have .r-music .c-list ul{
+    width:100%;
+    position: relative;
+}
+#father .content .have .r-have .r-music .c-list ul li{
+    height: 62px;
+    width: 210px;
+    border: 1px solid #E9E9E9;
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+}
+#father .content .have .r-have .r-music .c-list ul li .d-img{
+    height: 62px;
+    width: 62px;
+    position: relative;
+    float: left;
+}
+#father .content .have .r-have .r-music .c-list ul li .d-caption {
+    float: right;
+    height: 62px;
+    width: 143px;
+    position: relative;
+}
+#father .content .have .r-have .r-music .c-list ul li .d-caption p{
+    line-height: 40px;
+    font-size: 13px;
+    color: #666666;
+}
+#father .content .have .r-have .r-music .c-list ul li h4{
+    color: black;
+}
+#father .href1{
+    display: block;
+    height: 62px;
+    width: 210px;
+    background-color: #F4F4F4;
+}
+#father .href1 :hover {
+    background-color: #DADADA;
+    transition: 0.2s;
+}
+#father .content .have .b-have{
+    height: 60px;
+    width: 252px;
+    background-color: #FFFFFF;
+}
+#father .content .have .b-have .z-have{
+    display: block;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.50);
+    height: 40px;
+    width: 212px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bolder;
+    color: #333333;
+    border: 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #F4F4F4;
+}
+#father .content .have .b-have .z-have:hover{
+    background-color: #DADADA;
+    text-decoration: none;
+}
+#father .content .have .x-have{
+    height: 732px;
+    width: 252px;
+    background-color: #FFFFFF;
+}
+#father .content .have .x-have .x-music{
+    width: 212px;
+    height: 370px;
+    position: relative;
+    top: 20px;
+    margin: 0px 20px 20px 20px;
+    background-color: #FFFFFF;
+}
+#father .content .have .x-have .x-music .c-music{
+    height: 27px;
+    width: 212px;
+    border-bottom: 1px solid;
+}
+#father .content .have .x-have .x-music .c-music .c-box{
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bolder;
+}
+#father .content .have .x-have .x-music .x-list{
+    width: 212px;
+    height: 310px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+}
+#father .content .have .x-have .x-music .x-list ul{
+    width:100%;
+    position: relative;
+}
+#father .content .have .x-have .x-music .x-list ul li{
+    cursor: pointer;
+    height: 50px;
+    width: 210px;
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+}
+#father .content .have .x-have .x-music .x-list ul li .b-img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+}
+#father .content .have .x-have .x-music .x-list ul li .x-p{
+    height: 50px;
+    width: 160px;
+    line-height: 25px;
+}
+
+#father .content .have .x-have .x-music .x-list .x-p p a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    margin-left: 10px;
+}
+#father .content .have .x-have .x-music .x-list .x-p p a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+#father .content .have .x-have .x-music .x-list .x-p .s-p{
+    font-size: 12.5px;
+    color: #d61212;
+    width: 122px;
+    height: 30px;
+    position: relative;
+    left: 59px;
+    top: -22px;
+    /* 文本超出省略号 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#father .content .have .x-have .x-music .x-list .x-p .one-img{
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+/* 脚部 */
+#father .foot{
+      width: 100%;
+      height: 200px;
+      border-top: 1px solid #D3D3D3;
+      background-color: #F2F2F2;
+}
+#father .foot .fix{
+    width:1220px;
+    height: 200px;
+    margin: 0px auto;
+    position: relative;
+    background-color: white;
+}
+#father .foot .fix .l-flie{
+    float: left;
+    width:610px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+#father .foot .fix .l-flie h6{
+    font-size: 18px;
+    color: grey;
+    border-radius: 30px;
+    width: 185px;
+    border: 0px #666666 solid;
+}
+#father .foot .fix .l-flie p{
+    font-size: 18px;
+    line-height: 40px;
+    color: #666666;
+}
+#father .foot .fix .l-flie p span{
+    display: block;
+    width: 185px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    border-radius: 30px;
+    border: 0px #666666 solid;
+}
+
+#father .foot .fix .r-flie{
+    float: right;
+    width:610px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+#father .foot .fix .r-flie .dibu{
+    float: left;
+    height:60px;
+    width: 60px;
+    border: 10px #CCCCCC solid;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-right: 20px;
+}
+#father .foot .fix .r-flie .dibu span{
+         position: relative;
+         top: 0px;
+         left: 10px;
+         color: #666666;
+          font-size: 40px;
+}
+#father .foot .fix .r-flie .dibu span a{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+#father .foot .fix .r-flie .dibu span a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+}
+#father .foot .fix .r-flie .dibu p{
+         font-size: 15px;
+          color: #666666;
+          padding-top: 20px;
+}
+.top{
+    display: block;
+   width: 50px;
+   height: 50px;
+   border: 2px solid;
+   border-radius: 10px;
+   position: fixed;
+   bottom: 200px;
+   right:70px;
+   color: chartreuse;
+   background-color: #F5F5F5;
+   overflow: hidden;
+   line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.top:hover{
+   color: darkorange;
+   transition: 0.2s;
+   background-color: #777777;
+}
+span{
+   display: block;
+   position: relative;
+   top: 0px;
+   left: 0px;
+}
+
+
+   

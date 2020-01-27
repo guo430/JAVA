@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#father{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background-color: #F5F5F5;
+}
+li{
+    list-style-type: none;
+}
+/* 头部 */
+#father .header{
+    width: auto;
+    height: 70px;
+    background-color:#242424;
+}
+#father .first{
+    height: 70px;
+    width: 1220px;
+    margin: 0px auto;
+}
+#father .first .left{
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(../images/logo.jpg);
+    background-size: 176px 70px;
+    width: 176px;
+    height: 70px;
+}
+#father .first .center{
+    float: left;
+    clear: right;
+    width: 634px;
+    height: 70px;
+}
+#father .first .center .wuxu li{
+    float: left;
+    height: 70px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 70px;
+}
+#father .first .center .wuxu li a{  
+    color: #ccc;
+    text-decoration: none;
+}
+#father .first .center .wuxu li:hover{
+    background-color: black;
+    
+}
+#father .first .center .wuxu li:hover a{
+    color: white;
+}
+#father .first .right{
+    float: right;
+    clear: right;
+    width: 410px;
+    height: 70px;
+}
+#father .first .right .input{
+    width: 161px;
+    height: 70px;
+    float: left;
+}
+#father .first .right .input .put{
+    width: 155px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    margin: 20px 0px;
+    text-indent: 30px;
+    outline: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../images/biao.png);
+    border: 0px;
+    background-size:28px 28px;
+}
+#father .first .right .creation{
+    float: left;
+    width: 122px;
+    height: 32px;
+    margin: 17.5px 0px;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid #4F4F4F;
+    text-align: center;
+    position: relative;
+    border-radius: 32px;
+    background-color: black;
+}
+#father .first .right .creation a{
+   color: #ccc;
+   text-decoration: none;
+}
+#father .first .right .creation:hover {
+    border: 1px solid white;
+}
+#father .first .right .creation:hover a{
+    color: red;
+}
+#div{
+    width: 181px;
+    height: 390px;
+     border:0px solid;
+    margin: 100px auto;
+    position: relative;
+    top: -111px;
+    left: 173px;
+}
+#div .box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 55px;
+   
+}
+#div .box img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#div .box {
+    transition: all 0.1s ease;
+}
+#div .box img:hover{
+    animation:spread 0.5s forwards;
+}
+@keyframes spread{
+    0%{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+#div   .box  .fix{
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.50);
+      display:none;
+      position: absolute;;
+      margin: 0px -61px;
+      width: 180px;
+      height: 300px;
+      border-radius: 10px;
+      opacity: 0.9;
+      background-color: #242424;
+}
+#div   .box  .fix ol{
+    height: 20px;
+    position: relative;
+}
+#div   .box  .fix ol li{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+   padding: 11px 1px;
+    width:178px;
+    text-align: center;
+}
+#div   .box  .fix .b-r{
+    border-radius: 10px 10px 0px 0px;
+}
+#div   .box  .fix .b-b{
+    border-radius: 0px 0px 10px 10px;
+}
+#div   .box  .fix  ol li:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #000000;
+}
+#div   .box  .fix  ol li a{
+    text-decoration: none;
+    color: #CCCCCC;
+    position: relative;
+}
+#div   .box  .fix  ol li:hover a{
+    color: #FFFFFF;
+}
+#div  .box:hover .fix{
+    display:block;
+}
+#father .section{
+    width: 100%;
+    height:8px;
+    background-color: #C20C0C;
+}
+

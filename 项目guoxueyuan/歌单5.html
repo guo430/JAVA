@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>全部歌单-歌单-蔚蓝音乐</title>
+		<style type="text/css">
+			li{
+				list-style-type: none;
+			}
+			 .header{
+				width: auto;
+				height: 78px;
+				
+				margin: -8px -8px;
+                background-color:#242424;
+			  }
+			  .header .first{
+				height: 70px;
+                width: 1220px;
+				margin: 0px auto;
+				background-color: ;
+			  }
+              .header .first .left{
+				float: left;
+                background-repeat: no-repeat;
+                background-image: url(../images/logo.jpg);
+                background-size: 176px 70px;
+                width: 176px;
+				height: 70px;
+			  }
+              .header .first .center{
+				float: left;
+                  clear: right;
+                  width: 634px;
+				 height: 70px;
+				 background-color: ;
+			  }
+			  .header .first .center .wuxu li{
+				float: left;
+				 height: 70px;
+				position: relative;
+				top: -15px;
+				left: -39px;
+                 padding: 0px 16px;
+                  text-align: center;
+                    line-height: 70px;
+			  }
+              .header .first .center .wuxu li a{
+				color: #ccc;
+                text-decoration: none;
+			  }
+			  .header .first .center .wuxu li:hover{
+				background-color: black;
+			  }
+			  .header .first .center .wuxu li:hover a{
+				color: white;
+			  }
+              .header .first .right{
+				  float: right;
+				  clear: right;
+				  width: 410px;
+				  height: 70px;
+			  }
+              .header .first .right .input{
+				  width: 161px;
+				  height: 70px;
+				  float: left;
+			  }
+              .header .first .right .input .put{
+				width: 155px;
+                height: 30px;
+                 border-radius: 30px;
+                 position: relative;
+                 margin: 20px 0px;
+                text-indent: 30px;
+                outline: 0px;
+                background-repeat: no-repeat;
+                  background-image: url(../images/biao.png);
+                border: 0px;
+                   background-size:28px 28px;
+			  }
+			  .header .first .right .creation{
+				float: left;
+                 width: 122px;
+                  height: 32px;
+                 margin: 17.5px 0px;
+                font-size: 13px;
+              line-height: 32px;
+               border: 1px solid #4F4F4F;
+                   text-align: center;
+                 position: relative;
+                         border-radius: 32px;
+              background-color: black;
+			  }
+			  .header .first .right .creation a{
+				color: #ccc;
+                text-decoration: none;
+			  }
+              .header .first .right .creation:hover{
+				border: 1px solid white;
+			  }
+              .header .first .right .creation:hover a{
+				color: red;
+			  }
+			  /* 登录 */
+			  #div {
+				width: 181px;
+    height: 390px;
+     border:0px solid;
+    margin: 100px auto;
+    position: relative;
+    top: -111px;
+    left: 173px;
+			  }
+            #div .box{
+				width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 55px;
+			}
+			#div .box img{
+				display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+			}
+			
+			  /* 导航 */
+              .section{
+				  margin: -8px;
+				 width: auto;
+				 height:35px;
+				  position: relative;
+				  top: 0px;
+                background-color: #C20C0C;
+			  }
+              .section .dao{
+				  width: 1220px;
+				  height: 35px;
+				  margin: 0px auto;
+				  background-color: ;
+			  }
+              .section .dao .nav{
+				  float: left;
+				  padding-left: 180px;
+			  }
+			  .section .dao .nav li{
+				  float: left;
+				  height: 35px;
+				  border-radius: 21px;
+				  position: relative;
+				  top: -16px;
+				  padding: 0px 30px;
+				  line-height: 35px;
+			  }
+              .section .dao .nav li a{
+				  text-decoration: none;
+				  color: black;
+			  }
+			  .section .dao .nav li:hover{
+				background-color: #9B0909;
+                transition: 0.5s;
+			  }
+              .section .dao .nav li:hover a{
+				color: chartreuse;
+                transition: 0.5s;
+			  }
+
+
+			#father{
+				border: 1px solid gainsboro;
+				margin: 0px auto;
+				width: 1150px;
+				padding: 20px;
+				background-color: whitesmoke;
+			}
+    .menuDiv { 
+       border: 0px solid #aac; 
+        overflow: hidden; 
+        display:inline-block;
+       
+    }
+    
+    .menuDiv a {
+        text-decoration: none;
+    }
+    .menuDiv ul , .menuDiv li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+    } 
+    .menuDiv > ul > li > a {
+        width: 80px;
+        line-height: 20px;
+        color: black;
+        background-color: #CCDDFF;
+        text-align: center;
+       border: 1px darkgrey solid;
+       border-width: 5px;
+        display: block;
+        border-radius: 10px;
+        background-color:  #DCDCDC;
+        font-family: "新宋体";
+    }
+   
+   
+    .menuDiv > ul > li > ul > li {
+        float: none;
+    }
+    
+    .menuDiv > ul > li > ul {
+        position: absolute;
+        display: none;
+    }
+    
+	.menuDiv > ul > li:hover ul
+	{
+		display: block;
+	}
+    .fix{
+    position: relative;
+    top: 20px;
+   
+    }
+    .fixx{
+    	position: relative;
+    	top: -50px;
+    	right: -50px;
+    	font-family: "仿宋";
+    }
+    .fixxx{
+    	text-align: center;
+    	position: relative;
+    	left: 1050px;
+    	top:0px;
+    	background-color: firebrick;
+    	color: white;
+		width: 50px;
+		height: 40px;
+		line-height: 0px;
+    	border-radius: 5px;
+    }
+    #dan li a:link{text-decoration: none;
+    color: #000000;
+    }
+    #dan li a:hover{text-decoration: underline;
+    
+    	}
+      #q,#qq,#qqq,#qw,#qwe{
+    	display: inline-block;
+    	margin: 22px;
+      }
+     #ss,#S1,#S2,#S3,#S4,#S5,#S6,#S7,#S8,#S9,#SSS{
+     	border: 1px;
+	 }
+	 .fox{
+		border-top: 1px solid;
+    width:1190px;
+    height: 237px;
+    margin: 0px auto;
+	position: relative;
+	top: 0px;
+	right: 60px;
+    background-color: white;
+}
+ .fox .l-flie{
+
+    float: left;
+    width:610px;
+	height: 236px;
+	
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+ .fox .l-flie h6{
+    font-size: 18px;
+	color: grey;
+	
+    border-radius: 30px;
+    width: 185px;
+    border: 0px #666666 solid;
+}
+ .fox .l-flie p{
+    font-size: 18px;
+	position: relative;
+	top: -30px;
+    color: #666666;
+}
+.fox .l-flie p span{
+    display: block;
+    width: 185px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    border-radius: 30px;
+    border: 0px #666666 solid;
+}
+
+ .fox .r-flie{
+	 
+    float: right;
+	width:580px;
+	position: relative;
+	top: 0px;
+	right:0px;
+    height: 236px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+ .fox .r-flie .dibu{
+    float: left;
+    height:60px;
+    width: 60px;
+    border: 10px #CCCCCC solid;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-right: 20px;
+}
+ .fox .r-flie .dibu span{
+         position: relative;
+         top: 0px;
+         left: 10px;
+         color: #666666;
+          font-size: 40px;
+}
+.fox .r-flie .dibu span a{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+.fox .r-flie .dibu span a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+}
+ .fox .r-flie .dibu p{
+         font-size: 15px;
+          color: #666666;
+          padding-top: 20px;
+}
+     .top{
+    display: block;
+   width: 50px;
+   height: 50px;
+   border: 2px solid;
+   border-radius: 10px;
+   position: fixed;
+   bottom: 200px;
+   right:70px;
+   color: chartreuse;
+   background-color: #F5F5F5;
+   overflow: hidden;
+   line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.top:hover{
+   color: darkorange;
+   transition: 0.2s;
+   background-color: #777777;
+}
+span{
+   display: block;
+   position: relative;
+   top: 0px;
+   left: 0px;
+}
+		</style>
+	</head>
+	<body bgcolor=gainsboro>
+			<header>
+					<div class="header">
+						<div class="first">
+						  <div class="left"></div>
+						  <div class="center">
+						   <ul class="wuxu">
+								<li><a href="../index2.html" target="_self">发现音乐</a></li>
+								<li><a href="#">我的音乐</a></li>
+								<li><a href="#">朋友</a></li>
+								<li><a href="#"  target="_self">商城</a></li>
+								<li><a href="#">音乐人</a></li>
+								<li><a href="#">下载客户端</a></li>
+						   </ul>
+						  </div>
+						  <div class="right">
+								<div class="input">
+										<input class="put" type="text" placeholder="音乐/视频/电台/用户">
+								</div>
+			 
+								<div class="creation">
+										<a href="#">创造者中心</a>
+									</div>
+									<!-- 登录 -->
+									<div id="div">
+									 <div class="box">
+											<img src="../images/xiai.jpg" title="我的头像">
+										</div>
+									</div>
+						  </div>
+						</div>
+					 </div>
+					<!-- 头部 -->
+					<!-- 导航 -->
+					<div class="section">
+					 <div class="dao">
+						 <ul class="nav">
+								<li><a href="../index2.html">推荐</a></li>
+								<li><a href="#">排行榜</a></li>
+								<li><a href="#">歌单</a></li>
+								<li><a href="#">主播电台</a></li>
+								<li><a href="#">歌手</a></li>
+								<li><a href="./新碟上架.html">新歌上架</a></li> 
+						 </ul>
+			
+					 </div>
+					</div>
+					<!-- 导航 -->
+					</header>
+
+		<div id="father">
+			<div class="fix">
+				<div><font size="5"><b></b></font></div>
+				<div class="fixxx"><b>热门</b></div>
+				<div class="fixx">
+			<div class="menuDiv">
+        <ul>
+            <li>
+                <a href="#">选择分类</a>
+                <ul>
+                    <li><a href="#"><img src="QQ截图更多.png"></a></li>
+                    
+                </ul>
+            </li> 
+		</div>
+		</div>
+			</div>
+			<hr color="crimson" width="980px" size="3" align="center"/>
+	<div id="dann">
+			<ul type="none" id="dan">
+				
+<div id="q"><li><img src="QQ截图1200.png" 
+	title="如果人群太拥挤,就让我用耳机与世界对抗" 
+	width="165px" height="165px"></li>
+	<li><a href="https://music.163.com/#/playlist?id=2912091415">如果人群太拥挤,就..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;
+	<font color="darkgray"size="2">
+	路由里</font></a>
+	</li>
+</div>
+	<div id="qq"><li><img src="QQ截图1201.png"       title="Heave&nbsp;Trap〗天堂之音.|.纯净回荡"
+	width="165px" height="165px"></li>
+	<li><a href="#">〖Heave&nbsp;Trap〗天...</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray"size="2">
+		乐观且呆的Lamb君</font></a></li>
+</div>
+<div id="qqq"><li><img src="QQ截图1202.png" title="【东方电音】倘祥在这电子颗粒海洋之中" width="165px" height="165px"></li>
+	<li><a href="#">【东方电音】倘祥在..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray"size="2">眠夜＿</font></a></li>
+</div>
+<div id="qw"><li><img src="QQ截图1203.png" title="【Billboard】美国B榜最佳R&B/Hip-Hop合集" width="165px" height="165px"></li>
+	<li><a href="#">【Billboard】美国B..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">MusicalTimes</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1204.png" title="我知道有一则爱情方程式 藏在你的髪间" width="165px" height="165px"></li>
+	<li><a href="#">我知道有一则爱情方..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">鲑鱼先森</font></a></li>
+</div>
+
+
+
+
+<div id="qwe"><li><img src="QQ截图1205.png" title="听电子暖,是对降温起码的尊重" width="165px" height="165px"></li>
+	<li><a href="#">听电子暖,是对降温..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">留声机小姐姐</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1206.png" title="刷题 看书 学习 工作 冥想" width="165px" height="165px"></li>
+	<li><a href="#">刷题 看书 学习 工作..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">不加柠檬的..</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1207.png" title="【卧室推荐】 关上门/舒适度百分之百" width="165px" height="165px"></li>
+	<li><a href="#">【卧室推荐】 关上门..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">＿Cynthiaaaa</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1208.png" title="❤SloMo宝藏BGM❤" width="165px" height="165px"></li>
+	<li><a href="#">❤SloMo宝藏BGM❤</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">彩虹馬飛行</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1209.png" title="[纯音乐] 解压 看书 刷题 游戏 睡觉" width="165px" height="165px"></li>
+	<li><a href="#">[纯音乐] 解压 看..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">侨谕</font></a></li>
+</div>
+
+
+
+
+<div id="qwe"><li><img src="QQ截图1210.png" title="学习歌单||极静轻音乐" width="165px" height="165px"></li>
+	<li><a href="#">学习歌单||极静轻音.</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">满地星星碎</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1211.png" title="Cover（那些开口就惊艳的翻唱）" width="165px" height="165px"></li>
+	<li><a href="#">Cover（那些开口就..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">江野北秋</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1212.png" title="纯音乐图书馆★简单干净钢琴旋律" width="165px" height="165px"></li>
+	<li><a href="#">纯音乐图书馆★简单...</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">zsm呗</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1213.png" title="Tenderness For Nights" width="165px" height="165px"></li>
+	<li><a href="#">Tenderness For Nig..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">Joceah</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1214.png" title="流汗吧健身少女" width="165px" height="165px"></li>
+	<li><a href="#">流汗吧健身少女</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">YTTMANLIAO</font></a></li>
+</div>
+
+
+
+
+<div id="qwe"><li><img src="QQ截图1215.png" title="仙女蹦迪专用曲" width="165px" height="165px"></li>
+	<li><a href="#">仙女蹦迪专用歌曲❤</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">你是威廉吗</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1216.png" title="左脚清华右脚北大/学习写作业复习专用" width="165px" height="165px"></li>
+	<li><a href="#">左脚清华右脚北大/..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">十三小神仙＿</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1217.png" title="了解【中国乐队】,可以从他们开始" width="165px" height="165px"></li>
+	<li><a href="#">了解【中国乐队】可.</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">完美的灵魂</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1218.png" title="精神小伙专用BGM（甩头）" width="165px" height="165px"></li>
+	<li><a href="#">精神小伙专用BGM（..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">全海南省最靓的崽</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1219.png" title="浪漫轶事◐驶向甜蜜虚无の星海" width="165px" height="165px"></li>
+	<li><a href="#">浪漫轶事◐驶向甜蜜..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">NickyRomero</font></a></li>
+</div>
+
+
+
+<div id="qwe"><li><img src="QQ截图1220.png" title="2019百大DJ TOP100" width="165px" height="165px"></li>
+	<li><a href="#">2019百大DJ TOP100</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">欧美老猫</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1221.png" title="适合学习时听的歌" width="165px" height="165px"></li>
+	<li><a href="#">适合学习时听的歌..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">麻橙子</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1222.png" title="也许会治愈你心灵[干净纯音]" width="165px" height="165px"></li>
+	<li><a href="#">也许会治愈你心灵[. .</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">—-petty--</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1223.png" title="没BOSE不配炸耳机的Subwoofer" width="165px" height="165px"></li>
+	<li><a href="#">没BOSE不配炸耳机.. .</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">半步也成诗</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1224.png" title="【武侠影视金曲100首】 每个人心中的武侠梦" width="165px" height="165px"></li>
+	<li><a href="#">【武侠影视金曲100..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">枫jackie</font></a></li>
+</div>
+
+
+
+<div id="qwe"><li><img src="QQ截图1225.png" title="能与情歌抗衡的，唯有你的眼神" width="165px" height="165px"></li>
+	<li><a href="#">能与情歌抗衡的，唯..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">长歌style</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1226.png" title="甜蜜日系：微风轻起，好喜欢你" width="165px" height="165px"></li>
+	<li><a href="#">甜蜜日系：微风轻起..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">是月月哦QWQ</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1227.png" title="荒诞喜剧【脱离人群之外的清冷孤寂】" width="165px" height="165px"></li>
+	<li><a href="#">荒诞喜剧【脱离人群..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">Myunggg</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1228.png" title="致曾经的自己|握手言和 与昨天说再见" width="165px" height="165px"></li>
+	<li><a href="#">致曾经的自己|握手...</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">原创君</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1229.png" title="Acoustic|人生最好的意境是丰富的安静" width="165px" height="165px"></li>
+	<li><a href="#">Acoustic|人生最好..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">EricCheng-</font></a></li>
+</div>
+
+
+
+<div id="qwe"><li><img src="QQ截图1230.png" title="Future Bounce◐惊艳女声带你遨游梦幻宇宙" width="165px" height="165px"></li>
+	<li><a href="#">Future Bounce◐惊..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">Danlmind</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1231.png" title="【精选/耳熟/开口跪】那些曾火遍全球的神曲" width="165px" height="165px"></li>
+	<li><a href="#">【精选/耳熟/开口跪..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">一只傻高天</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1232.png" title="浪漫黄昏|夕阳总会温柔的落在你的肩膀上" width="165px" height="165px"></li>
+	<li><a href="#">浪漫黄昏|夕阳总会..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">桑菲尔德L</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1233.png" title="NIGHT VIBE 今夜，一起坠入温柔浪漫的海洋" width="165px" height="165px"></li>
+	<li><a href="#">NIGHT VIBE 今夜，一...</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">Kaleidoscott</font></a></li>
+</div>
+<div id="qwe"><li><img src="QQ截图1234.png" title="欧美活力向|元气满满的一天从音乐中开始" width="165px" height="165px"></li>
+	<li><a href="#">欧美活力向|元气满..</a></li>
+	<li>by<a href="#" >&nbsp;&nbsp;<font color="darkgray" size="2">少年的半岛铁盒</font></a></li>
+</div>
+<br /><br /><br /><br /><br /><br />
+
+ 
+<center>
+	
+	
+<div id="qwe"><li><font id="ss">
+	<a href="#"><input type="button" value="<上一页"></a></font></li></div>
+
+<div id="qwe"><li><font id="S1">
+	<a href="歌单.html"><input type="button" value="  1  "></a></font></li>
+</div>
+<div id="qwe"><li><font id="S2">
+	<a href="歌单2.html"><input type="button" value="  2  "></a></font></li>
+</div>
+<div id="qwe"><li><font id="S3">
+	<a href="歌单3.html"><input type="button" value="  3  "></a></font></li>
+</div>
+
+<div id="qwe"><li><font id="S7">
+	<a href="#"><input type="button" value=" ... "></a></font></li>
+</div>
+<div id="qwe"><li><font id="S8">
+	<a href="歌单4.html"><input type="button" value="  27  "></a></font></li>
+</div>
+<div id="qwe"><li><font id="S9">
+	<a href="歌单5.html"><input type="button" value="  28  "></a></font></li>
+</div>
+<div id="qwe"><li><font id="SSS">
+	<a href="#"><input type="button" value="下一页>"></a></font></li>
+</div>
+
+
+
+</center>
+	
+
+
+
+
+	<!-- </div>
+		</ul>
+		</div>
+		<center>
+		<div id="dione"><img src="QQ截图底2.0.png"  width="1720px" height="200px" </div>
+</center> -->
+		
+<div class="fox">
+                       
+	<div class="l-flie">
+		
+			<h6>项目名称：蔚蓝音乐</h6>
+			<p>项目组员：郭泽海 | 郭学渊 | 谢民芝 | 卿清梅 | 钟海斌 | 李卓</p>
+			<p><span>项目指导：黄超老师</span></p>
+			<p>项目顾问：郭晓老师</p>
+		
+	</div>
+	<div class="r-flie">
+		<div class="dibu">
+				<span><a href="#">体</a></span>
+				<p>用户体验</p>
+		</div>
+		<diV class="dibu">
+				<span><a href="#">音</a></span>
+				<p>天籁之音</p>
+			 </diV>
+		<diV class="dibu">
+				<span><a href="#">唱</a></span>
+				<p>高唱入云</p>
+			 </diV>
+			 <diV class="dibu">
+					<span><a href="#">账</a></span>
+					<p>账号认证</p>
+				 </diV>
+	   </div>
+	</div>
+</div>
+
+<a href="#top" class="top" title="回到顶部"><span>^</span>TOP</a>
+	</body>
+	
+		
+</html>
